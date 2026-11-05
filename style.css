@@ -975,3 +975,139 @@ img {
     font-size: 40px;
     cursor: pointer;
 }
+
+/* TEMPLE LOCATION SECTION */
+
+.temple-location {
+    padding: 80px 8%;
+    text-align: center;
+    background: #fff8e9;
+}
+
+.address-card {
+    background: #ffffff;
+    border: 1px solid #e8cf9d;
+    border-radius: 15px;
+    padding: 35px 25px;
+    margin: 30px auto 0;
+    max-width: 480px;
+    box-shadow: 0 8px 25px rgba(90, 55, 15, 0.08);
+}
+
+.location-icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.address-card h3 {
+    color: #713b16;
+    margin-bottom: 15px;
+}
+
+.address-card p {
+    color: #554334;
+    line-height: 1.9;
+}
+
+.address-card .temple-name {
+    color: #a66a18;
+    font-weight: 600;
+}
+
+.address-card .map-code {
+    font-weight: 600;
+    color: #a66a18;
+    margin-top: 12px;
+}
+
+.map-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #a66a18;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.map-button:hover {
+    background: #713b16;
+}
+
+.location-note {
+    margin-top: 20px;
+    color: #8b6a43;
+    font-size: 14px;
+}
+/* SCRIPTURE SECTION */
+
+.scripture-section {
+    padding: 80px 8%;
+    text-align: center;
+    background: #fffaf0;
+}
+
+.scripture-section h2 {
+    color: #8b4513;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    color: #765b43;
+    margin-bottom: 40px;
+}
+
+.scripture-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.scripture-card {
+    background: #ffffff;
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(80, 40, 10, 0.12);
+    transition: 0.3s;
+}
+
+.scripture-card:hover {
+    transform: translateY(-8px);
+}
+
+.scripture-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.scripture-card h3 {
+    color: #8b4513;
+    margin-top: 18px;
+}
+
+.scripture-card p {
+    color: #60452f;
+    line-height: 1.6;
+}
+
+.explore-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 25px;
+    background: #a65e18;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background: #70400f;
+}
+
